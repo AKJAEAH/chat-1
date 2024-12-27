@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +18,7 @@ input {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
+    color: ##ffffff;
     box-sizing: border-box;
 }
 
@@ -25,14 +26,14 @@ button {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    background-color: #007BFF;
-    color: white;
+    background-color: #009227;
+    color: black;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #033500;
 }
 
 #user-list {
@@ -41,7 +42,7 @@ button:hover {
 
 #user-list div {
     padding: 10px;
-    background-color: #e5e5e5;
+    background-color: #121212;
     margin: 5px 0;
     cursor: pointer;
 }
@@ -56,12 +57,12 @@ button:hover {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 10px;
-    background-color: #fff;
+    background-color: #1f1f1f;
 }
 
 .my-message {
-    background-color: #007BFF;
-    color: white;
+    background-color: #00b528;
+    color: #fff2f2;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -70,7 +71,7 @@ button:hover {
 }
 
 .other-message {
-    background-color: #e5e5e5;
+    background-color: #3e3e3e;
     color: black;
     padding: 10px;
     margin: 5px;
@@ -80,7 +81,7 @@ button:hover {
 }
 
 .group-chat {
-    background-color: green;
+    background-color: #003600;
     color: blue;
     padding: 10px;
     margin: 5px;
@@ -103,7 +104,7 @@ button:hover {
 
 .my-message {
     text-align: right;
-    color: blue;
+    color: black;
 }
 
 .other-message {
@@ -112,5 +113,5 @@ button:hover {
 }
 
 .group-message {
-    color: green;
+    color: black;
 }
